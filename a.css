@@ -1,108 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  ul,
-  li {
-    list-style: none;
-  }
-  img {
-    max-width: 100%;
-  }
-  body{
-    background:white;
-  }
-  header {
-    display: flex;
-    justify-content: space-between;
-    background: grey;
-    min-width: 800px;
-    background: #f208;
-  }
-  .logo {
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 6px;
-  }
-  .logo>img {
-    height: 26px;
-    vertical-align: middle;
-  }
-  ul {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-  }
-  ul>li {
-    line-height: 36px;
-    margin-left: 10px;
-    margin-right: 5px;
-  }
-  .zhuti{
-  
-    display: flex;
-    justify-content: center;
-    flex-wrap:wrap;
-  
-  }
-  .shang {
-    display: flex;
-    padding-top: 1px
-    
-  }
-  aside {
-    width: 100px;
-    height: 300px;
-    background: grey
-  }
-  main {
-    width: 600px;
-    height: 300px;
-    background: #444;
-    flex-grow: 1;
-  }
-  .ad {
-    width: 100px;
-    height: 300px;
-    background: #AAA;
-  }
-  .image {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width:800px;
-    
-  }
-  .a {
-    border: 1px solid #00AAAA;
-    width: 197px;
-    height: 250px;
-    margin-top: 5px;
-    background: #CCEEFF;
-  
-  }
-  
-  
-  footer{
-    border: 1px solid green;
-    min-width:800px;
-    background: 	#BC8F8F;
-    margin-top:4px;
-  }
-  
-  .wenzi{
-    margin-top:20px;
-    margin-bottom:20px;
-  
-    
-    
-  
-  
-  
-  
-  
-  
-  
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: grey;
+  min-width: 800px;
+  background: #f208;
+}
+.logo {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 6px;
+}
+.logo > img {
+  height: 26px;
+  vertical-align: middle;
+}
+ul {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+ul > li {
+  line-height: 36px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.zhuti {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.shang {
+  display: flex;
+  padding-top: 1px;
+}
+aside {
+  width: 100px;
+  height: 240px;
+  background: grey;
+}
+main {
+  width: 600px;
+  height: 239px;
+  flex-grow: 1;
+  display: flex;
+  align-self: center;
+}
+main > img {
+}
+
+.ad {
+  width: 100px;
+  height: 240px;
+  background: #aaa;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+}
+.a {
+  border: 1px solid #00aaaa;
+  width: 197px;
+  height: 250px;
+  margin-top: 5px;
+  background: #cceeff;
+  margin-left: 3px;
+}
+
+footer {
+  border: 1px solid green;
+  min-width: 800px;
+  background: #bc8f8f;
+  margin-top: 4px;
+}
+
+.wenzi {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
